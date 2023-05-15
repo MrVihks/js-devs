@@ -26,10 +26,35 @@ section{
     color:var(--dark-color);
     margin-left:1.3rem;
     display:none;
+    transition-duration: 350ms;
+}
+#navbar a:hover{
+    background-color:var(--light-color);
+    padding:3rem;
+    border-radius:1rem;
+}
+#home{
+    background-image:url("public/logo.jpeg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 145px;
 }
 
 @media (min-width: 768px){
     #navbar a{
         display: inline;
+    }
+    #navbar i{
+        display:none;
+    }
+}
+@media (max-width: 768px){
+    #navbar i{
+        display:inline;
+        font-size: 1.4rem;
+    }
+    #home{
+        background-position-x: center;
+        background-position-y: 15px;
     }
 }
