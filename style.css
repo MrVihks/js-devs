@@ -34,7 +34,7 @@ section{
     border-radius:1rem;
 }
 #home{
-    background-image:url("public/logo.jpeg");
+    background-image:url("img/logo.jpeg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 145px;
